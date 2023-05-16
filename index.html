@@ -1,0 +1,80 @@
+<!--
+ __    __     ______     __     _____     ______     __   __     ______    
+/\ "-./  \   /\  __ \   /\ \   /\  __-.  /\  ___\   /\ "-.\ \   /\  ___\   
+\ \ \-./\ \  \ \  __ \  \ \ \  \ \ \/\ \ \ \  __\   \ \ \-.  \  \ \___  \  
+ \ \_\ \ \_\  \ \_\ \_\  \ \_\  \ \____-  \ \_____\  \ \_\\"\_\  \/\_____\ 
+  \/_/  \/_/   \/_/\/_/   \/_/   \/____/   \/_____/   \/_/ \/_/   \/_____/ 
+                                                                                                                                                       
+-->
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Maintenance Mode</title>
+<link rel="stylesheet" href="assets/css/magnific-popup.css">
+<link rel="stylesheet" href="assets/css/web.light5e1f.css?v=2">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<body>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<style type="text/css">body{display: flex; justify-content: center; align-items: center; flex-direction: column; font-family: "Nunito Sans", sans-serif; color: #aaa; background: #131518; min-height: 100vh; margin: 0; padding: 0; margin-top: -30px;}a{color: #008aff; text-decoration: none; transition: all .2s ease;}a:hover{color: #0061b3;}p,ul{margin-top: 0; margin-bottom: 1rem;}.mai-panel1{display: flex; justify-content: center; align-items: center; flex-direction: column; flex: 0 0 40%; -ms-flex: 0 0 40%; max-width: 40%; margin: 5rem 0;}.error-title{color: #bdbdbd; font-size: 1.5rem; margin-top: 0;}.mai-panel{position: relative; display: flex; flex-direction: column; padding: 2rem; border-radius: 1rem; box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1); background-color: #ffffff;}.mai-panel p:last-child{margin-bottom: 0;}.powered-text{font-size: 85%; margin-top: 1.5rem; margin-bottom: 0;}@media all and (max-width: 992px){body{margin-top: 0;}.mai-panel1{flex: 0 0 100%; -ms-flex: 0 0 100%; max-width: 100%; margin-top: 3rem; margin-bottom: 3rem; margin-left: 15px; margin-right: 15px;}.header-logo img{width: 200px;}}.maibeta-mailogo{position: relative;top: -10px;margin-left: 5px;}</style>
+</head>
+<style>.mai-buton{background: #3c9e4a; border-radius: 100px; padding: 20px 60px; color: #fff; text-decoration: none; text-align: center; text-transform: uppercase; font-size: 14px;}.mai-buton:hover{-webkit-animation: hover 1200ms linear 2 alternate;  animation: hover 1200ms linear 2 alternate;}a:hover{color:#aaa; text-decoration:none; cursor:pointer;}</style>
+<div class="mai-panel1">
+<center><div class="maibeta-mailogo"><img src="https://wwwspennarecom.cdn.triggerfish.cloud/uploads/2013/12/Your-Logo-Here-Black-21.jpg"></div></center> <!--You can change here.-->
+<div class="mai-panel" style="background: #1d1f22;">
+<center><h1 class="error-title">Maintenance Mode</h1></center> <!--You can change here.-->
+<center><p>Lorem ipsum dolor sit amet. Et doloribus nobis in iusto rerum non odio possimus in odit placeat est galisum Quis aut nesciunt quibusdam et explicabo voluptatem. Non explicabo voluptates est fuga soluta est aliquid enim non autem mollitia. Ex aliquam incidunt aut nihil eveniet id aliquam internos et dolores dolorem sed maiores cumque qui iure doloremque ut voluptas doloremque! </p><p>Nam rerum voluptas eum omnis laudantium est omnis culpa non sunt dolor qui ipsa reiciendis. Ut doloremque enim sed blanditiis quos At minima consectetur. Qui sint nobis ut optio totam et molestias incidunt ea inventore voluptatem aut natus eveniet ut quia veniam sed sint quis. Ab sunt cumque cum facilis ipsa et iure quidem rem voluptatum temporibus. </p><p>Sit porro saepe rem ducimus velit et optio voluptas qui galisum ducimus sit tempora accusantium et cumque deleniti? Ad mollitia dolore in suscipit blanditiis est expedita pariatur aut consequatur error sit culpa cumque qui quasi galisum et aperiam nihil! Aut cumque nihil sit alias harum qui consequatur dolorem 33 tempore error a cupiditate reprehenderit. Id libero eius et enim inventore eum voluptatibus quas!</p></center> <!--You can change here.-->
+<br><br>
+<a href="https://discord.com/" class="mai-buton">Communication</a><br>
+</div>
+</div>
+</html>
+<body>
+    <script language="JavaScript">
+        document.onkeypress = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                return false;
+            }
+        }
+        document.onmousedown = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                return false;
+            }
+        }
+    document.onkeydown = function (event) {
+            event = (event || window.event);
+            if (event.keyCode == 123) {
+                return false;
+            }
+        }
+    </script>
+    <script language="Javascript">
+        var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+        var EnableRightClick = 0;
+        if(isNS)
+        document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+        function mischandler(){
+        if(EnableRightClick==1){ return true; }
+        else {return false; }
+        }
+        function mousehandler(e){
+        if(EnableRightClick==1){ return true; }
+        var myevent = (isNS) ? e : event;
+        var eventbutton = (isNS) ? myevent.which : myevent.button;
+        if((eventbutton==2)||(eventbutton==3)) return false;
+        }
+        function keyhandler(e) {
+        var myevent = (isNS) ? e : window.event;
+        if (myevent.keyCode==96)
+        EnableRightClick = 1;
+        return;
+        }
+        document.oncontextmenu = mischandler;
+        document.onkeypress = keyhandler;
+        document.onmousedown = mousehandler;
+        document.onmouseup = mousehandler;
+    </script>
+<footer><p>Your Site Name © 2000 – 2023 - All rights reserved.</p> <!--You can change here.--></footer>
+</html>
